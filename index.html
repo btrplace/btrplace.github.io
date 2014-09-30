@@ -46,7 +46,7 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <div class="collapse navbar-collapse navbar-left navbar-main-collapse">
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
@@ -54,21 +54,39 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">
-                        <i class="fa fa-play-circle"></i> Demo</a>
+                        <i class="fa fa-question-circle"></i> About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">
+                        <a class="page-scroll" href="#nutshell">
+                        <i class="fa fa-terminal"></i> Example</a>
+                    </li>
+
+                    <li>
+                        <a class="page-scroll" href="https://github.com/fhermeni/btrplace-solver/blob/master/README.md">
                         <i class="fa fa-github"></i> Download</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Development</a>
+                        <a class="page-scroll" href="#contact">
+                        <i class="fa fa-twitter"></i> Contacts</a>
+                    </li>                
+                </ul>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li>
+                        <a class="page-scroll" href="http://btrp.inria.fr">
+                        <i class="fa fa-play-circle"></i> Demo</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="http://btrp.inria.fr/documentation.php">Development</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Publications</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contacts</a>
-                    </li>
+                        <a href="http://btrp.inria.fr/publications.php">Publications</a>
+                    </li>                    
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -86,18 +104,11 @@
                         <img src="img/logo.png"/>
                         </h1>
                         <p class="intro-text">An Open-Source flexible virtual machine scheduler</p>
-                        <a href="#about">
-                            <span class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                            </span>
-                            <span class="btn">More</span>
-                        </a>
-                        <a href="http://btrp.inria.fr/sandbox">
-                            <span class="btn btn-circle">
-                            <i class="fa fa-angle-double-right animated"></i>
-                            </span>
-                            <span class="btn">Live demo</span>
-                        </a>
+
+                        <a href="#about" class="btn page-scroll animated">About</a>
+                        <a href="http://btrp.inria.fr/sandbox" class="btn animated">Live Demo</a>
+                        <a href="https://github.com/fhermeni/btrplace-solver/blob/master/README.md" class="btn animated">Download</a>
+                        <a href="http://btrp.inria.fr/apidocs/" class="btn animated">Apidoc</a>
                     </div>
                 </div>
             </div>
@@ -169,21 +180,6 @@ ReconfigurationPlan plan = cra.solve(model, constraints);
 
     </div>
 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download BtrPlace</h2>
-                    <p>You can download and use BtrPlace for free (<a href="http://www.gnu.org/copyleft/lesser.html">LGPL-3</a> license).
-                    
-                    <a href="https://github.com/fhermeni/btrplace-solver/blob/master/README.md" class="btn btn-default btn-lg"><i class="fa fa-github"></i> Visit Download Page</a>
-                    </p>
-                </div>
             </div>
         </div>
     </section>
