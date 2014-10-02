@@ -18,7 +18,7 @@
     <link href="css/grayscale.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
@@ -63,7 +63,13 @@
                     <li>
                         <a class="page-scroll" href="#contact">
                         <i class="fa fa-twitter"></i> Contacts</a>
-                    </li>                
+                    </li>
+                    <li>
+                    <a class="page-scroll" href="#publications">
+                    <i class="fa fa-university"></i> 
+                    Publications</a>
+                    </li>                    
+                
                 </ul>
             </div>
 
@@ -71,7 +77,7 @@
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li>
-                        <a class="page-scroll" href="http://btrp.inria.fr">
+                        <a class="page-scroll" href="http://btrp.inria.fr/sandbox">
                         <i class="fa fa-play-circle"></i> Demo</a>
                     </li>
                     <li>
@@ -79,10 +85,6 @@
                         <i class="fa fa-github"></i>
                         Github</a>
                     </li>
-                    <li>
-                        <a href="http://btrp.inria.fr/publications.php">Publications</a>
-                    </li>                    
-
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -101,10 +103,18 @@
                         </h1>
                         <p class="intro-text">An Open-Source flexible virtual machine scheduler</p>
 
-                        <a href="#about" class="btn page-scroll animated">About</a>
-                        <a href="http://btrp.inria.fr/sandbox" class="btn animated">Live Demo</a>
-                        <a href="https://github.com/fhermeni/btrplace-solver/blob/master/README.md" class="btn animated">Download</a>
-                        <a href="http://btrp.inria.fr/apidocs/" class="btn animated">Apidoc</a>
+                        <a href="#about" class="btn page-scroll animated">
+                        <i class="fa fa-question-circle"></i>
+                        About
+                        </a>
+                        <a href="http://btrp.inria.fr/sandbox" class="btn animated">
+                        <i class="fa fa-play-circle"></i>Live Demo</a>
+                        <a href="https://github.com/fhermeni/btrplace-solver/blob/master/README.md" class="btn animated">
+                        <i class="fa fa-github"></i>
+                        Download</a>
+                        <a href="http://btrp.inria.fr/apidocs/" class="btn animated">
+                        <i class="fa fa-life-saver"></i>
+                        Apidoc</a>
                     </div>
                 </div>
             </div>
@@ -112,7 +122,7 @@
     </header>
 
     <!-- About Section -->
-    <section id="about" class="container content-section text-center">
+    <section id="about" class="content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About BtrPlace</h2>
@@ -121,10 +131,10 @@
                 <p>BtrPlace is a complete rewrite of the reconfiguration algorithm that was inside OW2 project <a href="http://entropy.gforge.inria.fr/">Entropy</a> with a clear focus on extensibility.
                 It embeds the <a href="http://en.wikipedia.org/wiki/Constraint_programming">constraint programming</a> library <a href="http://choco.emn.fr/">Choco</a> to compute solutions.</p>
                 
-                <p>BtrPlace is developed by <a href="https://team.inria.fr/scale/">Scale</a>, a joint team between <a href="http://www.i3s.unice.fr/I3S/index.php">I3S</a> (Univ. of Nice Sophia-Antipolis and CNRS) and <a href="http://www.inria.fr/centre/sophia/">INRIA Sophia Antipolis méditerrannée</a>.
-                </p>
-
+                <!--<p>BtrPlace is developed by <a href="https://team.inria.fr/scale/">Scale</a>, a joint team between <a href="http://www.i3s.unice.fr/I3S/index.php">I3S</a> (Univ. of Nice Sophia-Antipolis and CNRS) and <a href="http://www.inria.fr/centre/sophia/">INRIA Sophia Antipolis méditerrannée</a>.
+                </p>            -->
             </div>
+
         </div>
     </section>
 
@@ -132,7 +142,10 @@
     <section id="nutshell" class="content-section text-center">
         <div class="nutshell-section">
             <div class="container">                
-                <h2 class="text-center">In a nutshell</h2>                                    
+                <h2 class="text-center">
+                    <i class="fa fa-terminal"></i>
+                    In a nutshell
+                </h2>                                    
 <div class="row">
     <div class="col-lg-5 col-lg-offset-1">                                        
         <pre>Model model = <img src="img/source.png" alt="source"></pre>
@@ -190,12 +203,13 @@ ReconfigurationPlan plan = cra.solve(model, constraints);
 
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="https://twitter.com/btr_place" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        <a href="https://twitter.com/btr_place" class="btn btn-lg btn-default"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                     </li>
                     <li>
-                        <a href="https://github.com/btrplace" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        <a href="https://github.com/btrplace" class="btn btn-lg btn-default"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                     </li>
                 </ul>
+
 
                 <p>BtrPlace is developed by <a href="https://team.inria.fr/scale/">Scale</a>, a joint team between <a href="http://www.i3s.unice.fr/I3S/index.php">I3S</a> (Univ. of Nice Sophia-Antipolis and CNRS) and <a href="http://www.inria.fr/centre/sophia/">INRIA Sophia Antipolis méditerrannée</a>.
                 </p>                
@@ -203,10 +217,208 @@ ReconfigurationPlan plan = cra.solve(model, constraints);
         </div>
     </section>
 
+
+    <section id="publications" class="container content-section text-center">
+    <h2 class="text-center">Publications</h2>
+                <div class="col-lg-8 col-lg-offset-2">
+    <p> 
+BtrPlace is a research project initiated in 2006 as a part of <a href="http://entropy.gforge.inria.fr">Entropy</a>.
+Here is the meaningful publications related to entropy then BtrPlace in chronological order.
+</p>
+
+<ol>
+    <li id="hotdep2013">
+        <p class="pub">
+            <a href="http://sites.google.com/site/hermenierfabien/tu-etal-hotdep2013.pdf">
+            <i class="fa fa-cloud-download"></i>
+            </a>                
+
+            <a href="https://github.com/fhermeni/btrplace-evaluation">
+            <i class="fa fa-flask"></i>
+            </a>                
+
+            <a href="https://sites.google.com/site/hermenierfabien/tu-etal-hotdep-slides.pdf">
+                <i class="fa fa-slideshare"></i>                
+            </a>                
+
+            <a href="#">Higher SLA Satisfaction in Datacenters with Continuous VM Placement Constraints.</a>
+            Huynh Tu Dang, and Fabien Hermenier.
+            9th Workshop on Hot topics in Dependable Systems (HotDep 2013). Farmington, USA. ACM.                   
+        </p>
+        <p class="comment">
+            This paper reveals we suck at developing constraints.
+            Developers usually omit to consider the temporary states of the datacenter
+            during the reconfiguration process. Sadly constraints can be temporary violated silently
+            during this period.
+            In our defense, it is very hard to imagine these silly situations.
+            On the bright side, BtrPlace is supposed to be flexible, so we propose
+            <i>continuous constraints</i> and implement them inside BtrPlace  to fix that shamy situation.          
+        </p>
+    </li>
+    <li id="tdsc2013">
+        <p class="pub">
+            <a href="http://sites.google.com/site/hermenierfabien/btrplace-tdsc2013.pdf">
+            <i class="fa fa-cloud-download"></i>
+            </a>                
+
+            <a href="https://github.com/fhermeni/benchmarks-tdsc">
+            <i class="fa fa-flask"></i>
+            </a>                
+
+            <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6409358&amp;tag=1">BtrPlace: A Flexible Consolidation Manager for Highly Available Applications.</a>
+            Fabien Hermenier, Julia Lawall, and Gilles Muller.
+            IEEE Transactions of Dependable and Secure Computing (TDSC), vol 10, no. 5, pp. 273--286, Sept.-Oct. 2013.
+        </p>
+        <p class="comment">
+            The cursed paper. 
+            Since 2009, I tried to write a good paper about the practical interests of flexible VM manager with
+            BtrPlace as the visible part of the iceberg.
+            After tons of rejections, and even more tons of improvements, I still don't know if the paper
+            is good but it finally passes the wall with an acceptance notification receiving during X-mas 2012.
+            Oh oh oh.
+        </p>
+    </li>   
+    <li id="e-energy2012">              
+            <p class="pub">         
+            <a href="http://sites.google.com/site/hermenierfabien/dupont-etal-eenergy2012.pdf">
+            <i class="fa fa-cloud-download"></i>
+            </a>                
+
+            <a href="https://sites.google.com/site/hermenierfabien/dupont-etal-eenergy2012-slides.pdf">
+                <i class="fa fa-slideshare"></i>
+            </a>                
+
+            <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6221099">An energy aware framework for virtual machine placement in cloud federated data centres.</a>
+            Corentin Dupont, Thomas Schulze, Giovanni Giuliani, Andrey Somov, and Fabien Hermenier.
+            In Proceedings of the 3rd International Conference on Future Energy Systems: Where Energy,
+            Computing and Communication Meet (e-Energy '12). ACM, New York, USA.
+        </p>
+        <p class="comment">
+            This work started by a message on the forum of the Choco Constraint Programming Solver.
+            This paper was the first result of a cooperation with the consortium of the Fit4Green FP7 project.
+            It proposes a flexible placement algorithm to address energy efficiency at fine grain.
+        </p>        
+    </li>
+
+    <li id="cp2011">            
+        <p class="pub">     
+            <a href="http://sites.google.com/site/hermenierfabien/hermenier-etal-cp2011.pdf">
+            <i class="fa fa-cloud-download"></i>
+            </a>                
+
+            <a href="https://sites.google.com/site/hermenierfabien/hermenier-etal-cp11-slides.pdf">
+                <i class="fa fa-slideshare"></i>
+            </a>                
+    
+            <a href="http://link.springer.com/chapter/10.1007/978-3-642-23786-7_5#page-1">Bin repacking scheduling in virtualized datacenters.</a>
+            Fabien Hermenier, Sophie Demassey, and Xavier Lorca.  In Proceedings of the 17th international conference
+            on Principles and practice of constraint programming (CP'11). Springer-Verlag, Berlin, Heidelberg, pages 27-41.
+        </p>
+        <p class="comment">
+            This paper results from a collaboration with scientists from the Constraint Programming community.
+            It exposes the theoretical aspects of what will be called BtrPlace.
+            We argues for a composable reconfiguration algorithm that handle simultaneously the VMs placement
+            and the schedule of the reconfiguration actions. We then propose a Constraint Programing model
+            to make it extensible through additional placement constraints.
+            <br>
+            For the final version of the paper, we planned to reveal several improvments that speed up the resolution process
+            and improve the quality of the computed solutions. Sadly, we went out of time so the new experiments where written
+            in a separate document called <a href="http://sites.google.com/site/hermenierfabien/hermenier-etal-cp2011-update.pdf">Bin Repacking Scheduling in Virtualized Datacenters
+            - Back to Work -</a>.           
+        </p>
+    </li>
+
+    <li id="plasma-2010">               
+        <p class="pub">     
+        <a href="http://hal.inria.fr/docs/00/56/71/02/PDF/RR-7545.pdf">
+        <i class="fa fa-cloud-download"></i>
+            </a>                
+
+        <a href="http://hal.upmc.fr/inria-00567102">Dynamic Consolidation of Highly-Available Web Applications.</a>
+        Fabien Hermenier, Julia Lawall, Jean-Marc Menaud, Gilles Muller.
+        INRIA Research Report RR-7545. 2011.
+        </p>
+        <p class="comment">
+            Well this paper is only a research report. But it is at the source of Btrplace. It reveals the practical interest
+            for a customizable reconfiguration algorithm. Here, the use case consists in placing VMs with regards to
+            fault-tolerance and performance concerns in a consolidated environment.
+        </p>        
+    </li>
+
+    <li id="vtdc2010">
+        <p class="pub"> 
+            <a href="http://sites.google.com/site/hermenierfabien/hermenier-etal-vtdc2010.pdf">
+            <i class="fa fa-cloud-download"></i>
+            </a>                
+
+            <a href="https://sites.google.com/site/hermenierfabien/hermenier-vtdc10-talk.pdf">
+                <i class="fa fa-slideshare"></i>
+            </a>                
+                    
+            <a href="http://dl.acm.org/citation.cfm?id=1851574">Cluster-wide Context Switch of Virtualized Jobs.</a>
+            Fabien Hermenier, Adrien Lèbre, and Jean-Marc Menaud.
+            Proceeding of the international workshop Virtualization Techniques for Distributed Computing (VTDC'10), with the 19th
+            ACM International Symposium on High Performance Distributed Computing (HPDC'10). ACM, New York, pages 658-666.          
+        </p>
+        <p class="comment">
+            This paper generalizes the principles of Entropy by using it to ease the development of VM scheduler.
+            The developer indicates only the state of VMs for the next round while Entropy manages the VMs accordingly using
+            live-migration or pre-emption.
+        </p>
+    </li>
+
+    <li id="vee2009">
+        <p class="pub">     
+            <a href="http://sites.google.com/site/hermenierfabien/hermenier-vee09.pdf">
+            <i class="fa fa-cloud-download"></i>
+            </a>                
+
+            <a href="https://sites.google.com/site/hermenierfabien/hermenier-vee09-slides.pdf">
+                <i class="fa fa-slideshare"></i>
+            </a>                
+        <a href="http://dl.acm.org/citation.cfm?id=1508300">Entropy: a consolidation manager for clusters.</a>
+        Fabien Hermenier, Xavier Lorca, Jean-Marc Menaud, Gilles Muller, and Julia Lawall.
+        21th Proceedings of the 2009 ACM SIGPLAN/SIGOPS international conference on Virtual execution environments (VEE '09).
+        ACM, New York, NY, USA, pages 41-50.
+        </p>
+        <p class="comment">
+        This paper is the fundaments paper about Entropy. It reveals the need to schedule
+        reconfiguration actions to resolve dependencies and proposes to evaluate their cost to reduce it to a minimum.
+        It finally demonstrates the practical interest of Constraint Programming to compute good schedules that can be applied fast.
+        </p>        
+    </li>
+
+    <li id="phd2009">
+        <p class="pub">     
+        <a href="http://sites.google.com/site/hermenierfabien/Thesis-Fabien_Hermenier.pdf">
+        <i class="fa fa-cloud-download"></i>
+        </a>                
+
+        <a href="https://sites.google.com/site/hermenierfabien/Thesis-Fabien_Hermenier-slides.pdf">
+            <i class="fa fa-slideshare"></i>
+        </a>            
+
+        <a href="http://hal.univ-nantes.fr/tel-00476822/">Gestion dynamique des tâches dans les grappes, une approche à base de machines virtuelles.</a>
+        Fabien Hermenier.
+        Phd. dissertation defended in nov. 2009. University of Nantes.
+        </p>
+        <p class="comment">
+            My Phd. thesis is only available in french. In english, it would be entitled
+            "Online Management of Jobs in Clusters using Virtual Machines". 
+            A <a href="https://sites.google.com/site/hermenierfabien/Thesis_Abstract-Fabien_Hermenier.pdf?attredirects=0">1-page abstract</a>
+            is however available in english.    
+        </p>
+    </li>
+</ol>
+</div>
+    </section>
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; University Nice Sophia Antipolis 2014</p>
+            <a href="http://www.unice.fr"><img src="img/unice.png" alt="unice logo"/></a>
+            <a href="http://i3s.unice.fr"><img src="img/i3s.png" alt="i3s logo"/></a>
+            <a href="http://www.cnrs.fr"><img src="img/logo_CNRS.png" alt="cnrs logo"/></a>
+            <!--Copyright &copy; University Nice Sophia Antipolis 2014-->
         </div>
     </footer>
 
@@ -218,9 +430,6 @@ ReconfigurationPlan plan = cra.solve(model, constraints);
 
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
