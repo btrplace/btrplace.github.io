@@ -353,6 +353,9 @@ footer p {
     margin: 0;
 }
 
+footer img {
+    height: 65px;
+}
 ::-moz-selection {
     text-shadow: none;
     background: #fcfcfc;
