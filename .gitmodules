@@ -1,0 +1,3 @@
+[submodule "apidocs"]
+	path = apidocs
+	url = git@github.com:btrplace/apidocs.git
