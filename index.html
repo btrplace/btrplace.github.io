@@ -181,7 +181,7 @@ N4 must be offline.
 <div class="row">
     <div class="col-lg-5 col-lg-offset-1">                                        
 <pre class="java_code">Set&lt;SatConstraint&gt; constraints = ...
-ReconfigurationAlgorithm cra = new DefaultChocoReconfigurationAlgorithm();
+Scheduler s = new DefaultChocoScheduler();
 ReconfigurationPlan plan = cra.solve(model, constraints);
 
 <img src="img/destination.png" alt="destination model"> = plan.getResultingModel();</pre>
