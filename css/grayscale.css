@@ -399,3 +399,7 @@ body {
     font-size: 12pt;
     text-align: justify;
 }
+
+.pub {
+    margin-bottom: 1.5em;
+}
