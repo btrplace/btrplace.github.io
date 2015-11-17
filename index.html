@@ -104,9 +104,12 @@
                         </a>
                         <a href="http://www.btrplace.org/play" class="btn animated">
                         <i class="fa fa-play-circle"></i>Live Demo</a>
-                        <a href="https://github.com/fhermeni/btrplace-solver/blob/master/README.md" class="btn animated">
-                        <i class="fa fa-github"></i>
+                        <a href="https://github.com/btrplace/scheduler/blob/master/README.md" class="btn animated">
+                        <i class="fa fa-cloud-download"></i>
                         Download</a>
+                        <a href="https://github.com/btrplace/" class="btn animated">
+                        <i class="fa fa-github"></i>
+                        Github</a>
                         <a href="apidocs/" class="btn animated">
                         <i class="fa fa-life-saver"></i>
                         Apidoc</a>
@@ -120,9 +123,9 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About BtrPlace</h2>
-                <p>BtrPlace is a virtual machines scheduler for hosting platforms. You can specialize it safely through independant constraints to make it support your expectations.</p>
+                <p>BtrPlace is a virtual machine scheduler for hosting platforms. You can specialize it safely through independant constraints to make it support your expectations.</p>
 
-                <p>BtrPlace is a complete rewrite of the reconfiguration algorithm that was inside OW2 project <a href="http://entropy.gforge.inria.fr/">Entropy</a> with a clear focus on extensibility.
+                <p>BtrPlace is a complete rewrite of the reconfiguration algorithm inside <a href="http://entropy.gforge.inria.fr/">Entropy</a>.
                 It embeds the <a href="http://en.wikipedia.org/wiki/Constraint_programming">constraint programming</a> library <a href="http://choco-solver.org/">Choco</a> to compute solutions.</p>               
             </div>
         </div>
@@ -198,7 +201,7 @@ N4 must be offline.
     <div class="col-lg-5 col-lg-offset-1">                                        
 <pre class="java_code">Set&lt;SatConstraint&gt; constraints = ...
 Scheduler s = new DefaultChocoScheduler();
-ReconfigurationPlan plan = cra.solve(model, constraints);
+ReconfigurationPlan plan = s.solve(model, constraints);
 
 <img src="img/destination.png" alt="destination model"> = plan.getResultingModel();</pre>
     </div>
@@ -229,6 +232,9 @@ ReconfigurationPlan plan = cra.solve(model, constraints);
                         <a href="https://twitter.com/btr_place" class="btn btn-lg btn-default"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                     </li>
                     <li>
+                        <a href="https://gitter.im/btrplace/chat" class="btn btn-lg btn-default"><i class="fa fa-comments-o fa-fw"></i> <span class="network-name">Gitter chat</span></a>
+                    </li>
+                    <li>
                         <a href="https://github.com/btrplace" class="btn btn-lg btn-default"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                     </li>
                 </ul>
@@ -244,11 +250,7 @@ ReconfigurationPlan plan = cra.solve(model, constraints);
     <section id="publications" class="container content-section text-center">
     <h2 class="text-center">Publications</h2>
                 <div class="col-lg-8 col-lg-offset-2">
-    <p> 
-BtrPlace is a research project initiated in 2006 as a part of <a href="http://entropy.gforge.inria.fr">Entropy</a>.
-Here is the meaningful publications related to entropy then BtrPlace in chronological order.
-</p>
-
+    
 <ol>
     <li id="ucc15">              
             <p class="pub">         
@@ -265,10 +267,6 @@ Here is the meaningful publications related to entropy then BtrPlace in chronolo
             mVM takes into account the VM memory workload and the network topology to estimate precisely the migration duration and take wiser scheduling decisions.
             Its current library of 6 constraints allows administrators to address temporal and energy concerns, for example to adapt the schedule and fit a power budget.
             Experiments on a real testbed show mVM compute optimal parallelism decisions and allow to reduce migrations duration, completion time, and energy consumption against BtrPlace <i>vanilla</i> and <a href="https://dl.acm.org/citation.cfm?id=1508299">Memory Buddies</a> schedulers.
-        </p>        
-    </li>
-    <li id="compas15">              
-            <p class="pub">         
             <a href="https://vincent.kherbache.fr/files/kherbache_compas15-paper.pdf">
             <i class="fa fa-cloud-download"></i>
             </a>                
@@ -282,7 +280,7 @@ Here is the meaningful publications related to entropy then BtrPlace in chronolo
             Compas'15 - Conférence d’informatique en Parallélisme, Architecture et Système. July 2015. Lille, France.
         </p>
         <p class="comment">
-            A short paper in France that presents <i>mVM</i> as the future migration scheduler of BtrPlace.
+            A short paper in French that presents <i>mVM</i> as the future migration scheduler of BtrPlace.
             With a proper network and migration model, we can now obtain reconfiguration plans that are fast in theory but also in practice (the second point matters).
         </p>        
     </li>
