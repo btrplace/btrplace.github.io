@@ -387,8 +387,8 @@ body {
     font-style: italic;
 }
 
-.partners img {
-    width: 150px;
+.partners img {    
+    max-height: 100px;
     margin-bottom: 2em;
 }
 
