@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="161.97571"
+   height="169.36693"
+   id="svg3576"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="gear.svg"
+   inkscape:export-filename="/Users/fhermeni/Documents/Research/Talks/2016-EMN/gears.png"
+   inkscape:export-xdpi="568.96997"
+   inkscape:export-ydpi="568.96997">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="752"
+     id="namedview18"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.85437122"
+     inkscape:cx="334.97464"
+     inkscape:cy="-101.42347"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3576" />
+  <defs
+     id="defs3578" />
+  <metadata
+     id="metadata3581">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.09740925;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:162"
+     id="path3372"
+     d="M 112.22875,6.4089895 C 107.16092,4.386316 101.98566,2.9722808 96.793071,2.0915254 L 91.960495,14.199606 C 84.876361,13.275233 77.821671,13.512511 70.913199,14.873543 L 66.235821,3.0816565 C 60.925927,4.3337585 55.772022,6.2323247 50.785356,8.5415562 45.79864,10.850743 40.971894,13.574051 36.470825,16.8652 l 4.677378,11.791886 c -5.676571,4.466819 -10.70075,9.82303 -14.966705,16.003388 L 14.733745,40.091448 C 11.743043,44.761746 9.1216815,49.786192 6.9823281,55.146368 4.8429747,60.506544 3.2843355,65.955143 2.2373848,71.401232 L 13.685138,75.970258 C 12.523221,83.3895 12.478636,90.733142 13.519532,97.881061 L 2.0082074,103.21171 c 0.9979663,5.48592 2.6230983,10.7843 4.6493775,15.89252 2.0262157,5.10822 4.4564731,10.03378 7.4449731,14.59796 l 11.511336,-5.33068 c 4.072764,5.74387 9.025333,10.77348 14.799105,14.98098 l -4.832577,12.10808 c 4.372037,2.93666 9.098628,5.47467 14.166519,7.49737 5.067777,2.02265 10.243046,3.43666 15.435679,4.31746 l 4.832577,-12.10808 c 7.084086,0.92433 14.138777,0.68705 21.047308,-0.67396 l 4.677366,11.79191 c 5.309899,-1.25212 10.463749,-3.15072 15.450479,-5.45993 4.98666,-2.30921 9.81346,-5.0325 14.31453,-8.32364 l -4.67738,-11.79189 c 5.67652,-4.46686 10.70069,-9.82305 14.96671,-16.00339 l 11.44772,4.56902 c 2.9907,-4.6703 5.61206,-9.69474 7.75142,-15.05492 2.13935,-5.36018 3.69799,-10.80878 4.74494,-16.254864 l -11.44772,-4.569015 c 1.16186,-7.419265 1.20645,-14.762928 0.1656,-21.910803 l 11.51133,-5.330652 c -0.99797,-5.485923 -2.62316,-10.784326 -4.64938,-15.892518 -2.02628,-5.108236 -4.45648,-10.033771 -7.44499,-14.597931 l -11.51132,5.330652 c -4.07282,-5.743885 -9.02539,-10.7735 -14.79912,-14.980955 l 4.83258,-12.10808 C 122.02319,10.969658 117.29653,8.4316408 112.22875,6.4089895 Z M 96.608302,45.546219 C 117.03378,53.698435 126.61309,77.848236 117.9906,99.451985 109.36811,121.05573 85.792878,131.97289 65.367402,123.82068 44.941868,115.66844 35.362618,91.518659 43.985104,69.914914 52.607591,48.311165 76.182768,37.393981 96.608302,45.546219 Z" />
+  <ellipse
+     cx="106.60938"
+     cy="48.629402"
+     id="circle3374"
+     style="fill:#ffffff;stroke:none;stroke-width:10.24399997;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+     transform="matrix(0.92875827,0.37068596,-0.37068596,0.92875827,0,0)"
+     rx="18.364256"
+     ry="19.423588" />
+</svg>
