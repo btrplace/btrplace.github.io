@@ -383,6 +383,9 @@ body {
     font-size: 11pt;
 }
 
+#contact {
+    background-color: #eee;
+}
 .comment {
     font-style: italic;
 }
