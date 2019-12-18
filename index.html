@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
     <link href="css/grayscale.css" rel="stylesheet">
-
-    <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+    <link href="fontawesome-free-5.12.0-web/css/all.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
@@ -50,7 +50,7 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">
-                        <i class="fa fa-question-circle"></i> About</a>
+                        <i class="fas fa-question-circle"></i> About</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#nutshell">
@@ -58,7 +58,11 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">
-                        <i class="fa fa-twitter"></i> Contacts</a>
+                        <i class="fab fa-twitter"></i> Contacts</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#partnership">
+                        <i class="fas fa-hands-helping"></i> Partnership</a>
                     </li>
                     <li>
                     <a class="page-scroll" href="#publications">
@@ -78,7 +82,7 @@
                     </li>
                     <li>
                         <a href="https://github.com/btrplace/scheduler">
-                        <i class="fa fa-github"></i>
+                        <i class="fab fa-github"></i>
                         Github</a>
                     </li>
                 </ul>
@@ -94,7 +98,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading">
-                        <img src="img/logo.png" alt="btrplace logo"/>
+                        <img class="large-logo" src="img/logo.png" alt="btrplace logo"/>
                         </h1>
                         <p class="intro-text">An Open-Source flexible virtual machine scheduler</p>
 
@@ -105,13 +109,13 @@
                         <a href="http://www.btrplace.org/play" class="btn animated">
                         <i class="fa fa-play-circle"></i>Live Demo</a>
                         <a href="https://github.com/btrplace/scheduler/blob/master/README.md" class="btn animated">
-                        <i class="fa fa-cloud-download"></i>
+                        <i class="fas fa-cloud-download-alt"></i>
                         Download</a>
                         <a href="https://github.com/btrplace/scheduler" class="btn animated">
-                        <i class="fa fa-github"></i>
+                        <i class="fab fa-github"></i>
                         Github</a>
                         <a href="apidocs/" class="btn animated">
-                        <i class="fa fa-life-saver"></i>
+                        <i class="fas fa-life-ring"></i>
                         Apidoc</a>
                     </div>
                 </div>
@@ -209,7 +213,7 @@ ReconfigurationPlan plan = s.solve(model, constraints);
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact information</h2>
 
-                <p><a href="mailto:fabien.hermenier@unice.fr">fabien.hermenier@unice.fr</a></p>
+                <p><a href="mailto:fabien.hermenier@nutanix.com">fabien.hermenier@nutanix.com</a></p>
 
                 <ul class="list-inline banner-social-buttons">
                     <li>
@@ -227,45 +231,55 @@ ReconfigurationPlan plan = s.solve(model, constraints);
                 <p>BtrPlace is developed by the <a href="https://team.inria.fr/scale/">Scale project</a> inside the <a href="http://www.i3s.unice.fr/en/comred">Comred team</a> of the <a href="http://www.i3s.unice.fr/I3S/index.php">CNRS laboratory I3S</a>.
                 </p>                
 
-        <div class="text-center">            
+        <p>            
             <a href="http://i3s.unice.fr"><img src="img/i3s.png" alt="i3s logo"/></a>
             <a href="http://www.unice.fr"><img src="img/unice.png" alt="unice logo"/></a>            
             <a href="http://www.cnrs.fr"><img src="img/logo_CNRS.png" alt="cnrs logo"/></a>            
-        </div>
-
-            </div>
-        </div>
+        </p>
+        <p></p> 
+    </div>
+    </div>
     </section>
 
 
-<section id="partnership">
-    <h2>Partnerships</h2>
-        <div class="row partners"> 
+<section id="partnership" class="content-section">
+        <div class="partners">
+<h2 class="text-center">They use BtrPlace</h2>
+<div class="row text-center">
+<div class="col-lg-2">
+  <a href="http://www.nutanix.com"><img src="img/nutanix.png" alt="Nutanix logo"></a>
+  <!--<p>Nutanix uses BtrPlace to mitigate hotspots in tens of thousands of private clouds.</i></p>  -->
+</div>
 
-    <div class="col-lg-4">
+<div class="col-lg-2">
+  <a href="https://prestocloud-project.eu/"><img src="img/prestocloud-logo.png" alt="PrestoCloud logo"></a>
+  <!--<p>The European H2020 project Presto-cloud uses BtrPlace to adapt proactively the placement of distributed application over fog and cloud resources</i></p>  -->
+</div>
+
+
+<div class="col-lg-2">
   <a href="http://onyxplatform.org"><img src="img/onyx.png" alt="Onyx platform logo"></a>
-  <p>Onyx Platform: <i>"BtrPlace succinctly expresses our most complex deployment policies - effectively eliminating a large portion of our hand-rolled scheduler component."</i></p>  
-    </div>
+  <!--<p>Onyx Platform: <i>"BtrPlace succinctly expresses our most complex deployment policies - effectively eliminating a large portion of our hand-rolled scheduler component."</i></p>  -->
+</div>
 
 
-    <div class="col-lg-4">
+    <div class="col-lg-2">
   <a href="http://www.dc4cities.eu/"><img src="img/logo-dc4cities.png" alt="DC4Cities logo"></a>
-  <p>The EU project DC4Cities relies on BtrPlace to schedule VMs and
-  negociate the QoS according to the availability of renewable energies.</p>  
+  <!--<p>The EU project DC4Cities relies on BtrPlace to schedule VMs and
+  negociate the QoS according to the availability of renewable energies.</p>  -->
     </div>
 
-<!--            <div class="col-lg-3">
+    <div class="col-lg-2">
     <a href="http://opencloudware.org"><img src="img/logo-ocw.png" alt="OpenCloudWare logo"></a>
-    <p>The FSN project OpenCloudware relies on BtrPlace to place
-      VMs with regards to fault-tolerance, performance, or energy concerns.</p>
-        </div>
--->
+    <!--<p>The FSN project OpenCloudware relies on BtrPlace to place
+      VMs with regards to fault-tolerance, performance, or energy concerns.</p>-->
+    </div>
 
-    <div class="col-lg-4">
+    <div class="col-lg-2">
     <img src="img/logo-f4g.png" alt="Fit4Green logo">
-    <p>The EU project Fit4Green relied on BtrPlace plus power models
+    <!--<p>The EU project Fit4Green relied on BtrPlace plus power models
     to reduce power consumption and gas emissions of datacenters.
-    </p>    
+    </p>-->    
     </div>    
 </div>
 

@@ -63,8 +63,12 @@ a:focus {
 
 .logo {
     width: 100px;
+}
+
+.large-logo {
     max-width: 80%;
 }
+
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,1);
@@ -393,12 +397,13 @@ body {
 
 .partners img {    
     max-height: 100px;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+    max-width: 150px;
 }
 
-.partners {
+/*.partners {
     background-color: #eee;
-}
+}*/ 
 .partners p {
     font-size: 12pt;
     text-align: justify;
