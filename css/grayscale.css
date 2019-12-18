@@ -63,6 +63,7 @@ a:focus {
 
 .logo {
     width: 100px;
+    max-width: 80%;
 }
 .navbar-custom {
     margin-bottom: 0;
